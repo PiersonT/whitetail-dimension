@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,7 +8,9 @@ function Navbar() {
   return (
     <header className="header">
       <div className="header-inner">
-        <div className="logo">🦌 Whitetail Dimension</div>
+      <div className="logo">
+  <img src={logo} alt="Whitetail Dimension" className="logo-img"/>
+</div>
         <nav className={menuOpen ? 'nav-open' : ''}>
           <ul>
             <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
