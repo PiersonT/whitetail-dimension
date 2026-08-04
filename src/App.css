@@ -648,7 +648,7 @@ footer {
   .page-hero h1 { font-size: 1.7rem; }
 }
 .logo-img {
-  height: 90px;
+  height: 120px;
   width: auto;
   filter: brightness(0) invert(1);
 }
