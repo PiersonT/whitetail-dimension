@@ -21,7 +21,7 @@ body {
   background: linear-gradient(135deg, #2c1810, #3d2817);
   background-image: url('./images/wood-texture.png'), linear-gradient(135deg, #2c1810, #3d2817);
   background-blend-mode: multiply;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -648,7 +648,7 @@ footer {
   .page-hero h1 { font-size: 1.7rem; }
 }
 .logo-img {
-  height: 55px;
+  height: 90px;
   width: auto;
   filter: brightness(0) invert(1);
 }
