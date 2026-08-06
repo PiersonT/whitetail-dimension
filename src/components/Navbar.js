@@ -8,9 +8,10 @@ function Navbar() {
   return (
     <header className="header">
       <div className="header-inner">
-      <div className="logo">
-  <img src={logo} alt="Whitetail Dimension" className="logo-img"/>
-</div>
+        <div className="logo-group">
+          <img src={logo} alt="Whitetail Dimension" className="logo-img"/>
+          <span className="logo-text">Whitetail Dimension</span>
+        </div>
         <nav className={menuOpen ? 'nav-open' : ''}>
           <ul>
             <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>

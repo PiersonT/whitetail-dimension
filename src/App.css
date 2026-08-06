@@ -1,4 +1,8 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
+@font-face {
+  font-family: 'Gagalin';
+  src: url('./fonts/headfont.ttf') format('truetype');
+}
 
 :root {
   --dark: #2c1810;
@@ -38,6 +42,11 @@ body {
   align-items: center;
 }
 
+.logo-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
 .logo {
   color: var(--white);
   font-size: 1.7rem;
@@ -648,7 +657,14 @@ footer {
   .page-hero h1 { font-size: 1.7rem; }
 }
 .logo-img {
-  height: 120px;
+  height: 140px;
   width: auto;
   filter: brightness(0) invert(1);
+}
+
+.logo-text {
+  font-family: 'Gagalin', 'Segoe UI', sans-serif;
+  font-size: 1.6rem;
+  color: var(--white);
+  letter-spacing: 1px;
 }
